@@ -70,12 +70,12 @@ public class UserController1 {
 
 
 
-		System.out.println("ZHUYUNCHAO的解决冲突的");
+		System.out.println("zhuyunchai的develop新分支");
 
 
-		System.out.println("zhuyunchai的新分支");
+		System.out.println("zhuyunchai的develop新分支");
 
-		System.out.println("zhuyunchai的新分支");
+		System.out.println("zhuyunchai的develop新分支");
 
 
 
