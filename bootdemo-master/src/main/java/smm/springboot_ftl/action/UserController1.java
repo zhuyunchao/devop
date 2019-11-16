@@ -70,16 +70,12 @@ public class UserController1 {
 
 
 
-		System.out.println("idea的maste分支的");
-		System.out.println("idea的maste分支的");
-
-		System.out.println("idea的maste分支的");
-
-		System.out.println("idea的maste分支的");
+		System.out.println("zhuyunchai的master新分支");
 
 
+		System.out.println("zhuyunchai的master新分支");
 
-
+		System.out.println("zhuyunchai的master新分支");
 
 
 
