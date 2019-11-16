@@ -1,22 +1,16 @@
 package smm.springboot_ftl.action;
 
-import java.util.Map;
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+import smm.springboot_ftl.bean.User;
+import smm.springboot_ftl.service.UserService;
 
 import javax.annotation.Resource;
 
-import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
-
-import smm.springboot_ftl.bean.User;
-import smm.springboot_ftl.service.UserService;
 /**
  * 在定义一个Rest接口时，我们通常会使用GET，POST，PUT，DELETE几种方式来完成我们所需要进行CRUD的一些操作，
  * 我们在这里罗列和教大家在实际开发中的使用，一些基本概念我们就不再赘述，例如使用POST的优缺点，可使用参数的大小限制等地：
@@ -40,7 +34,7 @@ import smm.springboot_ftl.service.UserService;
 @RestController
 @ComponentScan({"smm.springboot_ftl.service"})
 @MapperScan("smm.springboot_ftl.mapper")
-public class UserController {
+public class UserController1 {
 	
 	@Resource
 	private UserService userService;
@@ -63,7 +57,7 @@ public class UserController {
 	}
 	
 	public static void main(String[] args){
-	SpringApplication.run(UserController.class,args);
+	SpringApplication.run(UserController1.class,args);
 }
 
 
