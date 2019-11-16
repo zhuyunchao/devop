@@ -70,10 +70,10 @@ public class UserController1 {
 
 
 
-		System.out.println("idea的分支合并");
-		System.out.println("idea的分支合并");
-		System.out.println("idea的分支合并");
-		System.out.println("idea的分支合并");
+		System.out.println("zhuyunchao分支的合并");
+		System.out.println("zhuyunchao分支的合并");
+		System.out.println("zhuyunchao分支的合并");
+		System.out.println("zhuyunchao分支的合并");
 
 
 
