@@ -66,8 +66,17 @@ public class UserController1 {
 	public static void main(String[] args){
 
 	 	SpringApplication.run(UserController1.class,args);
+
+
+
+	 	
 		System.out.println("自己的解决冲突的");
+
 		System.out.println("自己的解决冲突的");
+
+		
+}
+
 
 
 }
