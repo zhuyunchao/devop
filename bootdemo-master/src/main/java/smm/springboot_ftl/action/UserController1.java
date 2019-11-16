@@ -70,13 +70,13 @@ public class UserController1 {
 
 
 
-		System.out.println("idea的maste分支的");
-		System.out.println("idea的maste分支的");
+		System.out.println("idea的develop分支的");
+		System.out.println("idea的develop分支的");
 
-		System.out.println("idea的maste分支的");
+		System.out.println("idea的develop分支的");
 
-		System.out.println("idea的maste分支的");
-		System.out.println("idea的maste分支的");
+		System.out.println("idea的develop分支的");
+		System.out.println("idea的develop分支的");
 
 
 
