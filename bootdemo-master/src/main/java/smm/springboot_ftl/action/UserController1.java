@@ -67,6 +67,9 @@ public class UserController1 {
 
 	 	SpringApplication.run(UserController1.class,args);
 		System.out.println("自己的解决冲突的");
+		System.out.println("别人的解决冲突的");
+		System.out.println("别人的解决冲突的");
+		System.out.println("别人的解决冲突的");
 }
 
 
