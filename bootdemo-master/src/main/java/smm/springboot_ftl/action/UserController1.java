@@ -72,7 +72,10 @@ public class UserController1 {
 
 		System.out.println("ZHUYUNCHAO的解决冲突的");
 
+		System.out.println("自己的解决冲突的");
 
+		System.out.println("自己的解决冲突的");
+		System.out.println("自己的解决冲突的");
 
 		
 
