@@ -55,11 +55,19 @@ public class UserController1 {
 	public String find1(){
 		return "[''message':'123dfx']";
 	}
-	
-	public static void main(String[] args){
-	SpringApplication.run(UserController1.class,args);
-}
 
+
+
+
+
+
+
+
+	public static void main(String[] args){
+
+	 	SpringApplication.run(UserController1.class,args);
+		System.out.println("自己的解决冲突的");
+}
 
 
 }
