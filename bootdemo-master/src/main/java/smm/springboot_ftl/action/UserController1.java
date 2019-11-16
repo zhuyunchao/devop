@@ -73,8 +73,14 @@ public class UserController1 {
 		System.out.println("自己的解决冲突的");
 
 		System.out.println("自己的解决冲突的");
+<<<<<<< HEAD
 		System.out.println("自己的解决冲突的");
 		System.out.println("自己的解决冲突的");
+=======
+		
+		System.out.println("别人的的解决冲突的");
+		System.out.println("别人的的解决冲突的");
+>>>>>>> aa0451616a79de6f1b7a514f63b580554ad1de04
 
 		
 }
