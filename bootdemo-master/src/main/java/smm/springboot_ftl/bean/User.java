@@ -5,6 +5,11 @@ package smm.springboot_ftl.bean;
  * @author Administrator
  *
  */
+
+
+
+
+ 这是我修改的 bug套同步到本地仓库中
 public class User {
 	
 	private int id;
